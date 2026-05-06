@@ -1,0 +1,26 @@
+[2026-03-15T13:31:11.401Z] ATTEMPT: student01@test.com
+  User Found. Role: DB=STUDENT, Input=STUDENT
+  Password Match: false
+  Stored Hash: Password@1...
+[2026-03-15T13:34:52.240Z] ATTEMPT: staff@test.com
+  User Found. Role: DB=STAFF, Input=STAFF
+  Password Match: true
+[2026-03-15T14:53:31.701Z] ATTEMPT: student01@test.com
+  User Found. Role: DB=STUDENT, Input=STUDENT
+  Password Match: false
+  Stored Hash: Password@1...
+[2026-03-16T04:50:31.562Z] ATTEMPT: student01@test.com
+  User Found. Role: DB=STUDENT, Input=STUDENT
+  Password Match: false
+  Stored Hash: Password@1...
+[2026-03-16T05:18:19.123Z] ATTEMPT: staff@test.com
+  User Found. Role: DB=STAFF, Input=STAFF
+  Password Match: true
+[2026-03-16T05:25:56.850Z] ATTEMPT: student01@test.com
+  User Found. Role: DB=STUDENT, Input=STUDENT
+  Password Match: false
+  Stored Hash: Password@1...
+[2026-03-16T06:10:18.144Z] ATTEMPT: student01@test.com
+  User Found. Role: DB=STUDENT, Input=STUDENT
+  Password Match: false
+  Stored Hash: Password@1...

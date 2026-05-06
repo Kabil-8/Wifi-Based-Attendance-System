@@ -1,0 +1,18 @@
+{
+    "postman.settings.dotenv-detection-notification-visibility": false,
+
+    // ── Clangd: suppress false-positive errors in Flutter-generated C++ files ──
+    "clangd.arguments": [
+        "--background-index",
+        "--header-insertion=never"
+    ],
+    "C_Cpp.errorSquiggles": "disabled",
+    "clangd.enableCodeCompletion": true,
+
+    // Exclude generated Flutter Windows files from file watcher / analysis
+    "files.associations": {
+        "**/windows/flutter/generated_plugin_registrant.cc": "cpp",
+        "**/windows/flutter/generated_plugin_registrant.h": "cpp"
+    },
+    "cmake.sourceDirectory": "E:/Wifi Attendance/Attendance-app-2-main/attendance_app_frontend/linux"
+}

@@ -1,0 +1,14 @@
+# Suppress clangd false-positive errors in Flutter-generated Windows C++ files.
+# 'flutter/plugin_registry.h' is only resolvable via CMake at build time.
+---
+If:
+  PathMatch: ".*windows[/\\\\]flutter[/\\\\].*\\.(cc|h)"
+Diagnostics:
+  Suppress:
+    - "pp_file_not_found"
+    - "undeclared_var_use"
+    - "unused-includes"
+  UnusedIncludes: None
+CompileFlags:
+  Add:
+    - "-w"
